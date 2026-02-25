@@ -35,5 +35,4 @@ Another struggle I had concerned inputting the 10 million reads from the mouse g
 Lastly, I struggled with the concept that the read fragments do not statisfy balance conditions presentied by Eulerian path as k-mer multiplicity and uneven coverage violates that balance. Our implementation extracts path using the semi-balance conditions which we deemed more biologically appropriate.
 
 ### Generative AI appendix:
-Generative AI was used to aid in fixing 
-
+Generative AI was used to review reflection for grammatical clarity and minor syntax corrections.
