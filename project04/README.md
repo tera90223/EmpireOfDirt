@@ -28,11 +28,7 @@ iterate through the fragments
 ## Group lead (Eric Arnold):
 
 ## Group members (Jersha, Chantera):
-Chantera: First, it was difficult to differentiate between what should be stored in the class's state vs when it should just be a local copy in the function. Since the algorithm removes edges, I had to be mindful about mutating `self.graph` vs the local copy of the graph. 
-
-Another struggle I had concerned inputting the 10 million reads from the mouse genome.  Memory complexity issues  arose which we did not fully address uring implementation. After our class discussion, I realized we can use generators to stream reads without holding all the reads in memory, reducing memory overhead.
-
-Lastly, I struggled with the concept that the read fragments do not statisfy balance conditions presentied by Eulerian path as k-mer multiplicity and uneven coverage violates that balance. Our implementation extracts path using the semi-balance conditions which we deemed more biologically appropriate.
+Chantera:  I enjoyed working with Eric and Jersha on this project. Both members challenged me to think more conceptually about the algorithm and its biological application. Discussing the concepts with my team helped deepen my understanding of the algorithm, although implementation proved to be more difficult. Specifically, I struggled with implementing recursion and using defaultdicts. It was also difficult to differentiate between what should be stored in the class's state vs when it should just be a local copy in the function. Since the algorithm removes edges, I had to be mindful about mutating self.graph vs the local copy of the graph. Finally, working with real read fragments highlighted that they do not statisfy balance conditions presentied by Eulerian path as k-mer multiplicity and uneven coverage violates that balance. Our implementation extracts path using the semi-balance conditions which we deemed more biologically appropriate.
 
 ### Generative AI appendix:
 Generative AI was used to review reflection for grammatical clarity and minor syntax corrections.
